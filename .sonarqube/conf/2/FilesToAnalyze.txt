@@ -1,0 +1,15 @@
+﻿C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\DatabaseService.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\ForecastService.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\IDatabaseService.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\Program.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\obj\Debug\net8.0\WeatherAPI.GlobalUsings.g.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfo.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\appsettings.Development.json
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\appsettings.json
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\.dockerignore
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\Dockerfile
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\WeatherAPI.http
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\Properties\launchSettings.json
+C:\Users\aerom\Documents\GitHub\CDWeatherExample_Silas\src\WeatherAPI\obj\Debug\net8.0\apphost.exe
