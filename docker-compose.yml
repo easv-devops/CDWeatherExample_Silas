@@ -1,6 +1,6 @@
 services:
   weather-frontend:
-    image: boulundeasv/cd-weather-web:staging
+    image: kerosilas/cd-weather-web:staging
     ports:
       - "5001:8080"
     depends_on: 
@@ -9,7 +9,7 @@ services:
       - "com.centurylinklabs.watchtower.enable=true"
   
   weather-api:
-    image: boulundeasv/cd-weather-api:staging
+    image: kerosilas/cd-weather-api:staging
     ports:
       - "5002:8080"
     depends_on:
