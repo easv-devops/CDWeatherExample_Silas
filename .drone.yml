@@ -38,7 +38,7 @@ steps:
         from_secret: DockerPassword
       context: src
       dockerfile: src/WeatherAPI/Dockerfile
-      repo: kerosilas/cd-weather-api
+      repo: boulundeasv/cd-weather-api
       tags: 
         - staging
 
@@ -51,7 +51,7 @@ steps:
         from_secret: DockerPassword
       context: src
       dockerfile: src/WeatherFrontend/Dockerfile
-      repo: kerosilas/cd-weather-web
+      repo: boulundeasv/cd-weather-web
       tags: 
         - staging
 
