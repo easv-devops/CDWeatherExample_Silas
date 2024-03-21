@@ -11,6 +11,7 @@
                 <th>Date</th>
                 <th>Summary</th>
                 <th>Temperature (C)</th>
+                <th>Wind Speed (Beaufort Scale)</th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +20,7 @@
                     <td>@forecast.Date.ToString("MMMM d yyyy")</td>
                     <td>@forecast.Summary</td>
                     <td>@forecast.TemperatureC</td>
+                    <td>@forecast.WindSpeed</td>
                 </tr>
             }
         </tbody>
@@ -27,6 +29,7 @@
                 <td></td>
                 <td></td>
                 <td>Avg: @Model.Average(f => f.TemperatureC)</td>
+                <td>Avg: @Model.Average(f => f.WindSpeed)</td>
             </tr>
         </tfoot>
     </table>

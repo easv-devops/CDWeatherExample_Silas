@@ -1,0 +1,2 @@
+ALTER TABLE Forecasts
+ADD COLUMN wind_speed INT NOT NULL;
