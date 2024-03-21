@@ -21,8 +21,8 @@ public class DatabaseService : IDatabaseService
         foreach (var forecast in forecasts) 
         {
             connection.Execute(@"
-                INSERT INTO Forecasts (`date`, temperatureC, summary) VALUES (@Date, @TemperatureC, @Summary)
-                    ON DUPLICATE KEY UPDATE temperatureC = @TemperatureC, summary = @Summary
+                INSERT INTO Forecasts (`date`, temperatureC, summary, wind_speed) VALUES (@Date, @TemperatureC, @Summary, @WindSpeed)
+                    ON DUPLICATE KEY UPDATE temperatureC = @TemperatureC, summary = @Summary, wind_speed = @WindSpeed
             ", forecast, transaction);
         }
         transaction.Commit();
